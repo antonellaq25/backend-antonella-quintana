@@ -1,6 +1,7 @@
 const Itinerary = require('../models/Itinerary');
 const City = require('../models/City');
 
+
 const getItineraries = async (req, res) => {
     try {
         const itineraries = await Itinerary.find();

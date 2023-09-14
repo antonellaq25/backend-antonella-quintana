@@ -9,7 +9,7 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 app.use(express.json());
 app.use(cors());
-app.use("/api", router)
+app.use("/api", router);
 
 app.listen(3000, () =>{
  console.log("listening on port 3000");
